@@ -15,8 +15,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "fibonacci_utils"
   gem.homepage = "http://github.com/rubycoder1/fibonacci_utils"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: Utilities for computing fibonacci metrics added to Ruby's Integer and Range classes.}
-  gem.description = %Q{TODO: This is a set of utilities added to the Ruby Integer and Range classes for computing fibonacci
+  gem.summary = %Q{Utilities for computing fibonacci metrics added to Ruby's Integer and Range classes.}
+  gem.description = %Q{This is a set of utilities added to the Ruby Integer and Range classes for computing fibonacci
  sequence values and proportions. This library is intended for use by technical analysts in the financial markets interested
  in using fibonacci to help in trading decisions. }
   gem.email = "ericsteen1@gmail.com"
