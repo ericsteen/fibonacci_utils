@@ -1,7 +1,9 @@
 = fibonacci_utils
 
 This is a set of utilities added to the Ruby Integer and Range classes for computing fibonacci sequence values
-and proportions. This library is intended for use by technical analysts in the financial markets interested in
+and proportions.
+
+This library is intended for use by technical analysts in the financial markets interested in
 using fibonacci to help in trading decisions. 
 
 == Contributing to fibonacci_utils
