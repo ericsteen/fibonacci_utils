@@ -15,14 +15,16 @@ Jeweler::Tasks.new do |gem|
   gem.name = "fibonacci_utils"
   gem.homepage = "http://github.com/rubycoder1/fibonacci_utils"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{TODO: Utilities for computing fibonacci metrics added to Ruby's Integer and Range classes.}
+  gem.description = %Q{TODO: This is a set of utilities added to the Ruby Integer and Range classes for computing fibonacci
+ sequence values and proportions. This library is intended for use by technical analysts in the financial markets interested
+ in using fibonacci to help in trading decisions. }
   gem.email = "ericsteen1@gmail.com"
   gem.authors = ["Eric Steen"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
   # and development dependencies are only needed for development (ie running rake tasks, tests, etc)
   #  gem.add_runtime_dependency 'jabber4r', '> 0.1'
-  #  gem.add_development_dependency 'rspec', '> 1.2.3'
+  gem.add_development_dependency 'rspec', '> 1.2.3'
 end
 Jeweler::RubygemsDotOrgTasks.new
 
