@@ -4,10 +4,13 @@ module FibonacciRangeUtils
 
   KEY_FIB_LEVELS = [0.236, 0.382, 0.500, 0.618, 0.764, 1.000, 1.382, 1.618, 2.618, 4.236]
 
-# Given a move in either direction(up or down) within a range, computes the value at the closest
-# Fibonacci level out of all key levels. Note: returns a rough estimate due to float imprecision.
+# Given a move in either direction(up or down) within a range, computes the value at the
+# Fibonacci level nearest to value passed as a parameter from the given key levels.
+# Note: returns a rough estimate due to float imprecision.
 #
-# @params [Float] the value at which one would like to find the closest fib value
+# This method can be used to find the expected extent of a move or retracement of a financial instrument.
+#
+# @param [Float], the value at which one would like to find the nearest fib level value
 # @return [Float, String] the value at the closest Fibonacci proportion and which proportion it corresponds to.
   def nearest_fibonacci_level(val)
     span = (self.end - self.begin).abs
