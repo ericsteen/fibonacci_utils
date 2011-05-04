@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Eric Steen"]
   s.date = %q{2011-05-04}
-  s.description = %q{TODO: This is a set of utilities added to the Ruby Integer and Range classes for computing fibonacci
+  s.description = %q{This is a set of utilities added to the Ruby Integer and Range classes for computing fibonacci
  sequence values and proportions. This library is intended for use by technical analysts in the financial markets interested
  in using fibonacci to help in trading decisions. }
   s.email = %q{ericsteen1@gmail.com}
@@ -27,6 +27,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "fibonacci_utils.gemspec",
     "lib/fibonacci_utils.rb",
     "lib/fibonacci_utils/.DS_Store",
     "lib/fibonacci_utils/fibonacci_integer_utils.rb",
@@ -38,7 +39,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.5.0}
-  s.summary = %q{TODO: Utilities for computing fibonacci metrics added to Ruby's Integer and Range classes.}
+  s.summary = %q{Utilities for computing fibonacci metrics added to Ruby's Integer and Range classes.}
   s.test_files = [
     "spec/fibonacci_utils_spec.rb",
     "spec/spec_helper.rb"
