@@ -1,10 +1,10 @@
 = fibonacci_utils
 
-This is a set of utilities added to the Ruby Integer and Range classes for computing fibonacci sequence values
+This is a set of core extensions to the Ruby programming language for computing fibonacci sequence values
 and proportions.
 
 This library is intended for use by technical analysts in the financial markets interested in
-using fibonacci as an aid in trading decisions. 
+using fibonacci as an aid in trading decisions. Contributors and feedback welcome, shoot me an email at rubycoder1@gmail.com.
 
 == Contributing to fibonacci_utils
  
