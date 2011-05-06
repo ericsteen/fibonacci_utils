@@ -29,4 +29,14 @@ describe "FibonacciRangeUtils" do
       Range.new(165.54, 50.44).nearest_fibonacci_level(110).should == [107.99,0.500]
     end
   end
+
+  context "passed a value out of range" do
+    it "Range.new(0,1).nearest_fibonacci_level(2) => ValueOutOfRangeError" do
+      lambda { Range.new(0,1).nearest_fibonacci_level(2) }.should raise_error FibonacciRangeUtils::ValueOutOfRangeError, "Must pass a value within the range."
+    end
+    it "Range.new(50,1).nearest_fibonacci_level(0.5) => ValueOutOfRangeError" do
+      lambda { Range.new(50,1).nearest_fibonacci_level(0.5) }.should raise_error FibonacciRangeUtils::ValueOutOfRangeError, "Must pass a value within the range." 
+    end
+  end
+
 end
